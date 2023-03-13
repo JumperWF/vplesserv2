@@ -36,7 +36,7 @@ margin: 0 0.5em;
         height: 0;
     }
     to {
-        height: auto;
+        height: calc((max-height));
     }
 }
 

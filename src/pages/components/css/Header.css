@@ -19,3 +19,8 @@
     padding: 0;
     margin: 0;
 }
+
+.pHeaderPhone {
+    text-decoration: none;
+    color: inherit;
+}
