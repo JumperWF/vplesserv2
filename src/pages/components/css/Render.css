@@ -1,0 +1,83 @@
+h3{
+    margin: 0;
+}
+
+h3 button {
+    all: inherit;
+    border: 0;
+    /* display: flex;
+    justify-content: space-between; */
+    width: 100%;
+    padding: 0.5em 0;
+}
+  
+.hidden {
+ opacity: 0;
+}
+
+/* button svg {
+height: 1em;
+margin: 0 0.5em;
+} */
+
+.hiddenDiv{
+    margin: 0 15px;
+    height: 0;
+    overflow: hidden;
+}
+
+
+.scrollDown {
+    animation: 2s scrollDown ease;
+}
+
+@keyframes scrollDown {
+    from {
+        height: 0;
+    }
+    to {
+        height: auto;
+    }
+}
+
+/* .spinnerSvg {
+    animation: 1s spinnerSvg ease;
+}
+
+@keyframes spinnerSvg {
+    from{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+} */
+.checkImg{
+    height: 20px;
+    width: 20px;
+    margin: 0 0.5em
+}
+.checkImg-rotate{
+    transform: rotate(270deg);
+
+}
+.spinnerImg {
+    animation: 1s spinnerImg ease;
+}
+
+
+@keyframes spinnerImg {
+    from{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(270deg);
+    }
+}
+
+.closeThisDiv{
+    border-radius: 15px;
+    color: black;
+    background-color: green;
+    
+}

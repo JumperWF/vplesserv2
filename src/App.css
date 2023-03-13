@@ -1,0 +1,18 @@
+body{
+    background-color: #39E24D;
+}
+
+.App{
+  max-width: 900px;
+  display: grid;
+  margin: 10px auto;
+  justify-items: center;
+}
+
+.break{
+
+}
+
+.pageName{
+
+}
