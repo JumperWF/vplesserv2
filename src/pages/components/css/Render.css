@@ -1,4 +1,4 @@
-h3{
+h3 {
     margin: 0;
 }
 
@@ -10,7 +10,11 @@ h3 button {
     width: 100%;
     padding: 0.5em 0;
 }
-  
+
+h3 button:hover{
+    cursor: pointer;
+}
+
 .hidden {
  opacity: 0;
 }
@@ -20,7 +24,7 @@ height: 1em;
 margin: 0 0.5em;
 } */
 
-.hiddenDiv{
+.hiddenDiv {
     margin: 0 15px;
     height: 0;
     overflow: hidden;
@@ -36,7 +40,7 @@ margin: 0 0.5em;
         height: 0;
     }
     to {
-        height: calc((max-height));
+        height: auto;
     }
 }
 
@@ -75,9 +79,24 @@ margin: 0 0.5em;
     }
 }
 
-.closeThisDiv{
+.closeThisDiv {
     border-radius: 15px;
     color: black;
-    background-color: green;
-    
+    background-color: silver;
+    border-style: double;
+}
+
+.closeThisDiv:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .Title > h3 {
+        font-size: larger;
+    }
+
+    .About > p {
+        font-size: large;
+    }
+
 }

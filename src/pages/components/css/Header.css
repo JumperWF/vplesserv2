@@ -1,6 +1,6 @@
 .block-avatar{
     display: grid;
-    justify-content: center;
+    justify-items: center;
 }
 
 .avatar{
@@ -23,4 +23,34 @@
 .pHeaderPhone {
     text-decoration: none;
     color: inherit;
+}
+
+@media screen and (max-width: 768px) {
+    .Header {
+        display: grid;
+        grid-template-rows: 40% 20% 40%;
+    }
+    
+    .block-avatar {
+        display: block;
+        height: 100%;
+    }
+
+    .block-avatar > a {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .avatar{
+        width: auto;
+        height: 100%;
+        border-radius: 50%;
+    }
+        
+    .pHeader {
+        font-size: larger;
+        margin: 0 5%;
+    }
+    
 }
