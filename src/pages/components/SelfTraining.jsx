@@ -44,3 +44,4 @@ function SelfTraining() {
 
     )
 }
+export default SelfTraining;
