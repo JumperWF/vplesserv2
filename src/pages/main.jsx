@@ -6,7 +6,8 @@ import WorkWith from './components/WorkWith';
 import NotWorkingWith from './components/NotWorkingWith';
 import Supervisia from './components/Supervisia';
 import Training from './components/Training';
-import Payment from './components/Payment';
+import SelfTraining from './components/SelfTraining'; 
+// import Payment from './components/Payment';
 import WorkFormat from './components/WorkFormat';
 import LegalAsp from './components/LegalAsp';
 import SocialIcons from './components/Social-icons';
@@ -23,7 +24,8 @@ function MainPage() {
             <Render buttonText="С чем точно не ко мне" hiddenText= <NotWorkingWith /> />
             <Render buttonText="Супервизия" hiddenText= <Supervisia /> />
             <Render buttonText="Тренинг саморегуляции" hiddenText= <Training /> />
-            <Render buttonText="Cколько стоит и как оплатить" hiddenText= <Payment /> />
+            <Render buttonText="Тренинг навыков саморегуляции в диалектическом поведенческом подходе" hiddenText= <SelfTraining/> />
+            {/* <Render buttonText="Cколько стоит и как оплатить" hiddenText= <Payment /> /> */}
             <Render buttonText="Формат работы" hiddenText= <WorkFormat />/>
             <Render buttonText="Юридические аспекты" hiddenText= <LegalAsp />/>
                    
